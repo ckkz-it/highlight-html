@@ -116,3 +116,11 @@ highlightHTML('.input', {
   attrClass: 'my-attr',
 });
 ```
+
+## Known issues
+
+1. There are only 5 attributes highlighting in one tag.
+E.g. `<input type="checkbox" name="new" class="form" id="my-checkbox" title="input">`
+Others after 5th won't be colored.
+2. Naming one of the classes `value` causes highlight problems (only on the `.output` area though).
+3. Attributes without value (e.g. `checked`, `disabled`) highlighting only if you put them in the end of tag. And only one will be highlighted.
