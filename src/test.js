@@ -1,0 +1,3 @@
+highlightHTML('.input', {
+  output: '.output'
+});

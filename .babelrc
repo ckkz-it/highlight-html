@@ -3,8 +3,10 @@
     ["env", {
     "modules": false
   }],
-    "stage-3"  
+    "stage-3",
+    ["minify", {
+    "keepFnName": true
+    }]
   ],
   "plugins": ["transform-object-assign"]
-
 }
