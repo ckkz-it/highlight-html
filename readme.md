@@ -75,7 +75,7 @@ highlightHTML('.input', {
 });
 ```
 
-This one will append `<input>` tag to `.output`.
+This one will append `<p>` tag to `.output`.
 
 ```js
 highlightHTML('<p class="text" data-method="Manual method">Pretty simple</p>', {
@@ -83,9 +83,6 @@ highlightHTML('<p class="text" data-method="Manual method">Pretty simple</p>', {
   output: '.output'
 });
 ```
-It will ouput something like this:
-
-<<span style="color: #A7413E;font-weight: bold;">p</span> <span style="color: #D2945D">class</span>=<span style="color: #90C362;">"text"</span> <span style="color: #D2945D">data-method</span>=<span style="color: #90C362;">"Manual method"</span>>Pretty simple</<span style="color: #A7413E;font-weight: bold;">p</span>>
 
 #### Classes (tagClass, valueClass, attrClass)
 
